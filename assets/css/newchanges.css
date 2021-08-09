@@ -29,3 +29,25 @@
 .margin-top{
     margin-top: 50px;
 }
+
+
+/* product page */
+.specification-block{
+    padding: 10px 15px;
+    background-color: rgba(0, 128, 0, 0.747);
+    border:  10px white solid;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: baseline;
+    min-height: 100px;
+    
+}
+.specification-block h3{
+    line-height: 1.5;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 400;
+}
+.white-text{
+    color: white;
+}
