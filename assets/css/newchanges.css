@@ -91,13 +91,27 @@
     }
     }
 
+/* business solutions */
+
+.icon-box{
+   padding-top: 20px;
+   padding-bottom: 10px;
+   margin: 10px;
+   border: solid rgba(109, 106, 106, 0.219) 1.5px;
+   border-radius: 15px;
+}
+.icon-box h4{
+    margin-top: 15px;
+}
 /* breeze */
 
 .hide{
-    display: none;
-    transition: all ease 1s;
+opacity: 0;
+    transition: all ease 0.5s;
 }
 .show-hidden :hover +.hide{
     display: block;
+    opacity: 1;
     
 }
+
