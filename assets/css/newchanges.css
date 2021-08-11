@@ -118,4 +118,10 @@ opacity: 0;
     opacity: 1;
     
 }
-
+.link{
+    color: green;
+}
+.link :hover{
+    color: rgb(11, 31, 15);
+    font-weight: 400;
+}
