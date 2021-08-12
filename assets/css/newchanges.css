@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+  }
 .main-heading{
     font-weight: 600;
     font-size: 50px;
