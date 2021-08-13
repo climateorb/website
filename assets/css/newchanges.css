@@ -1,0 +1,130 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.main-heading{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.sub-main-heading{
+    font-size: 45px;
+    font-weight: 600;
+}
+.small-heading{
+    font-size: 35px;
+    font-weight: 400;
+}
+.green-text{
+    color: green;
+}
+.normal-text{
+    font-size: large;
+    font-weight: 400;
+}
+.smaller-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bigger-text{
+    font-size: 22px;
+}
+.center-text{
+    text-align: center;
+}
+.margin-top{
+    margin-top: 50px;
+}
+
+.big-line-height{
+    line-height: 1.4;
+}
+
+.factors-box{
+    background-image: linear-gradient(43deg, #ffffff6e 0%, #ffffff9d 46%, #ffffff3b 100%);
+    padding-top: 30px;
+
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+/* product page */
+.specification-block{
+    padding: 10px 15px;
+    border:  10px white solid;
+    border-radius: 15px;
+    justify-content: baseline;
+    min-height: 100px;
+    transition: all  0.5s ease-in;  
+}
+.specification-block h3{
+    line-height: 1.5;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.specification-block :hover{
+    font-weight: 600;
+}
+.white-text{
+    color: white;
+}
+
+/* solutions page */
+
+.feature-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.feature-row__item{
+  flex: 1;
+  padding: 50px;
+}
+.feature-row__text{
+    padding: 80px 50px;
+
+}
+@media screen and (max-width: 700px) {
+    
+    .feature-row{
+        flex-direction: column;
+    }
+    }
+
+/* business solutions */
+
+.icon-box{
+   margin: 10px;
+   border: solid rgba(109, 106, 106, 0.219) 1.5px;
+   border-radius: 15px;
+   padding: 20px 10px 10px;
+   min-height: 150px;
+}
+.icon-box h4{
+    margin-top: 15px;
+}
+.icon-box p{
+    font-weight: 400;
+    font-size: large;
+}
+/* breeze */
+
+.hide{
+opacity: 0;
+    transition: all ease 0.5s;
+}
+.show-hidden :hover +.hide{
+    display: block;
+    opacity: 1;
+    
+}
+.link{
+    color: green;
+}
+.link :hover{
+    color: rgb(11, 31, 15);
+    font-weight: 400;
+}
