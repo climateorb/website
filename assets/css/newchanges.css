@@ -56,6 +56,13 @@ html {
     border-radius: 15px;
 }
 
+.text-font{
+    font-family: 'Raleway', sans-serif;
+}
+.border-radius{
+    border-radius: 10px;
+}
+
 /* header{
     background-image: linear-gradient(rgba(255, 255, 255, 0.685), rgba(255, 255, 255, 0.212));
 } */
