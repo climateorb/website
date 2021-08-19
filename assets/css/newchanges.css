@@ -2,6 +2,10 @@
 html {
     scroll-behavior: smooth;
   }
+.large-heading{
+    font-size: 60px;
+    font-weight: 600;
+}
 .main-heading{
     font-weight: 600;
     font-size: 50px;
@@ -39,6 +43,9 @@ html {
 .big-line-height{
     line-height: 1.4;
 }
+.soft-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 .factors-box{
     background-image: linear-gradient(43deg, #ffffff6e 0%, #ffffff9d 46%, #ffffff3b 100%);
@@ -49,6 +56,56 @@ html {
     border-radius: 15px;
 }
 
+/* header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.685), rgba(255, 255, 255, 0.212));
+} */
+.color-white{
+    color: #fff;
+}
+/* index page */
+.bg img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(.4);
+ }
+  
+  
+  .banner-section {
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin: 100px;
+  }
+.banner-heading{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.banner-sub-heading{
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-transform: capitalize;
+
+}
+
+@media screen and (max-width: 700px) {
+    .bg{
+        margin-top: 0px;
+    }
+    .banner-section{
+        top: 0;
+        margin: 50px;
+    }
+    .banner-sub-heading{
+        font-size: 2rem;
+    }
+    }
 
 /* product page */
 .specification-block{
@@ -97,14 +154,17 @@ html {
 /* business solutions */
 
 .icon-box{
-   margin: 10px;
-   border: solid rgba(109, 106, 106, 0.219) 1.5px;
+   margin: 15px;
+   border: solid rgba(56, 122, 12, 0.568) 4.5px;
    border-radius: 15px;
    padding: 20px 10px 10px;
-   min-height: 150px;
+   min-height: 180px;
+   margin-top: 35px;
+   
 }
 .icon-box h4{
     margin-top: 15px;
+    margin-bottom: 0px;
 }
 .icon-box p{
     font-weight: 400;
