@@ -46,6 +46,9 @@ html {
 .soft-shadow{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.inner-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 
 .factors-box{
     background-image: linear-gradient(43deg, #ffffff6e 0%, #ffffff9d 46%, #ffffff3b 100%);
@@ -68,6 +71,9 @@ html {
 } */
 .color-white{
     color: #fff;
+}
+.blue-text{
+    color: rgb(16, 18, 151);
 }
 /* index page */
 .bg img {
