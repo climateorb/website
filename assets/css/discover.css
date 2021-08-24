@@ -116,7 +116,7 @@ body {
   .timeline-marker:after {
     content: "";
     width: 3px;
-    background: #CCD5DB;
+    background: #6bcc4e;
     display: block;
     position: absolute;
     top: 24px;
